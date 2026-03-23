@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Our Menu - Delicious Eats</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- HEADER (Flexbox) -->
+    <header class="header">
+        <h1>Our Menu</h1>
+        <img 
+            src="images/logo.jpg"
+            srcset="images/logo.jpg 200w, images/logo.jpg 400w"
+            sizes="(max-width: 768px) 100px, 200px"
+            alt="Restaurant Logo">
+    </header>
+
+    <!-- NAV (Flexbox) -->
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menu</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- MENU (CSS GRID replaces table) -->
+    <main class="menu-grid">
+
+        <section class="menu-item">
+            <h3>Appetizers</h3>
+            <p>Delicious starters to begin your meal.</p>
+            <img 
+                src="images/dish1.jpg"
+                srcset="images/dish1.jpg 400w, images/dish1.jpg 800w"
+                sizes="(max-width: 768px) 100vw, 300px"
+                alt="Appetizers">
+        </section>
+
+        <section class="menu-item">
+            <h3>Main Courses</h3>
+            <p>Satisfying entrees to delight your palate.</p>
+            <img 
+                src="images/dish2.jpg"
+                srcset="images/dish2.jpg 400w, images/dish2.jpg 800w"
+                sizes="(max-width: 768px) 100vw, 300px"
+                alt="Main Courses">
+        </section>
+
+        <section class="menu-item">
+            <h3>Desserts</h3>
+            <p>Sweet treats to finish your dining experience.</p>
+            <img 
+                src="images/dish3.jpg"
+                srcset="images/dish3.jpg 400w, images/dish3.jpg 800w"
+                sizes="(max-width: 768px) 100vw, 300px"
+                alt="Desserts">
+        </section>
+
+        <section class="menu-item">
+            <h3>Beverages</h3>
+            <p>A selection of drinks to complement your meal.</p>
+            <img 
+                src="images/dish4.jpg"
+                srcset="images/dish4.jpg 400w, images/dish4.jpg 800w"
+                sizes="(max-width: 768px) 100vw, 300px"
+                alt="Beverages">
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p>&copy; 2023 Delicious Eats</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
