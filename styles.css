@@ -100,3 +100,20 @@ body {
         align-items: center;
     }
 }
+/* Skip to Content Link */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 10px;
+    background: #000;
+    color: #fff;
+    padding: 8px 12px;
+    text-decoration: none;
+    z-index: 100;
+    border-radius: 4px;
+}
+
+/* Show when focused (keyboard users) */
+.skip-link:focus {
+    top: 10px;
+}
